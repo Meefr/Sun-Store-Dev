@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .WhoAreWe
+  {
+    margin-top: 50px;
+    width: 50%;
+    margin-left: 500px;
+    background-color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  #who
+  {
+    
+    color: #ffc907;
+    font-size: 70px;
+  }
+  #whocontent
+  {
+    color: #02364c;
+    font-size: 23px;
+  }
+
+  .links img
+  {
+    margin-top: 20px;
+    margin-left: 520px;
+    margin-bottom: 9px;
+    width: 30px;
+    height: 30px;
+  }
+  .footer
+  {
+    background-color: #02364c;
+    margin-top: 95px;
+  }
+ body
+ {
+  background-image: url(/Images/495.jpg);
+ }
+a.facebook{
+  background-color: #406e96;
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+a.facebook:hover{
+  background-color: #016dcb;
+}
+a.facebook .facebook-icon{
+  height: 40px;
+  width: 40px;
+  color:#016dcb ;
+  font-size: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+.facebook-icon,
+img.google-img{
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+}
+img.google-img{
+  height: 30px;
+  width: 30px;
+  object-fit: cover;
+}
+a.google{
+  border: 1px solid #29932efd;
+  text-decoration: none;
+  background-color: #3ec445fd;
+  transition: all 0.3s ease;
+}
+a.google:hover{
+  background-color: #14ff3bfd;
+}
+a.google span{
+  font-weight: 500;
+  opacity: 0.6;
+  color: #232836;
+  
+}
+@media screen and (max-width: 400px) {
+  .form{
+      padding: 20px 10px;
+  }
+  
+}
