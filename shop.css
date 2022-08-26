@@ -184,3 +184,42 @@ header {
   bottom: 22px;
   right: 20px;
 }
+
+#hero{
+  background-image:url(/Images/T_shirts/img/banner/b16.jpg );
+  height: 70vh;
+  width: 99%;
+  background-size: cover;
+  background-repeat: no;
+  background-position: top 35% right 0;
+  display: flex;
+  flex-direction: column;
+  padding: 0 80px;
+  align-items: flex-start;
+  justify-content: center;
+  border-radius: 12px;
+  border-bottom-left-radius: 400px;
+  border-top-left-radius: 400px;
+  border-top-right-radius: 400px;
+  border-bottom-right-radius: 400px;
+  margin-left: 8px;
+}
+#hero a{
+  text-decoration: none;
+  background-image: url(/Images/T_shirts/img/button.png);
+  background-color: transparent;
+  color:lightseagreen;
+  border: 0;
+  margin-top: 30px;
+  padding: 14px 80px 14px 65px;
+  cursor: pointer;
+  font-size: 20px;
+  background-repeat: no-repeat;
+  font-style: italic;
+  font-weight: 700;
+  transition: 0.3s ease;
+}
+
+#hero a:hover{
+  transform: scale(1.1);
+}
