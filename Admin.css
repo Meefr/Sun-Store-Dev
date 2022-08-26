@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #E1F5FE;
+  }
+
+  table {
+    margin: 60px;
+    margin-left: 370px;
+    width: 60%;
+    margin-top: 200px;
+    color: #02364c;
+    border: solid #02364c  ;
+    border-collapse: collapse;
+  }
+
+  table td {
+    padding: 10px;
+    text-align: center;
+    border: solid #02364c;
+}
+
+#delete
+{
+    border: none;
+}
+table thead {
+    color: white;
+    background-color: #02364c;
+    font-weight: bold;
+    font-size: 23px;
+    height: 32px;
+  }
+table #content
+{
+    font-size: 20px;
+}
+  button {
+    border: none;
+    background-color: #02364c;
+    color: white;
+    width: 130px;
+    height: 25px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+  }

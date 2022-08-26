@@ -12,8 +12,6 @@
          <td>${users[i].Password}</td>
          <td> <button class="delete">Delete</button> </td>
        </tr>
-       
-     ;
      `
      document.querySelector('tbody').innerHTML = table;
    }
