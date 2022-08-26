@@ -19,15 +19,7 @@
     <body>
 
         <section id="header">
-            <a href="/HTML Files/Home.html"><img src="/Images/logo.png" alt="SunStore" class="logo"></a>
-            <div>
-                <ul id="navbar">
-                <li><a href="/HTML Files/Home.html" >Home</a></li>
-                <li><a href="/HTML Files/Shop.html" >Shop</a></li>
-                <li><a href="/HTML Files/About.html">About</a></li>
-                <li><a class="active" href="/login/log.html">Login</a></li>
-                <li><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
-                </ul>
+            <a><img src="/Images/logo.png" alt="SunStore" class="logo"></a>
             </div>
         </section>
         <div class="backgroundphoto">
@@ -37,19 +29,19 @@
             <div class="form login">
                 <div class="form-content">
                     <header>Login</header>
-                    <form action="#" >
+                    <form action="#">
                         <div class="field input-field">
-                            <input type="email" placeholder="Email" required class="input">
+                            <input type="email" placeholder="Email" required class="input" id="loginEmail">
                         </div>
                         <div class="field input-field">
-                            <input type="password" placeholder="Password" required class="password"  >
+                            <input type="password" placeholder="Password" required class="password" id="loginPass" >
                             <i class='bx bx-hide eye-icon'></i>
                         </div>
                         <div class="form-link">
                             <a href="#" class="forgot-pass">Forgot password?</a>
                         </div>
                         <div class="field button-field">
-                            <button>Login</button>
+                            <button onclick="checkData()" id="Login">Login</button>
                         </div>
                     </form>
                     <div class="form-link">
@@ -75,19 +67,19 @@
             <div class="form signup">
                 <div class="form-content">
                     <header>Signup</header>
-                    <form action="#" onSubmit="return validateForm()" name="register" >
+                    <form action="#" onSubmit="return CheckSave()" name="register" >
                         <div class="field input-field">
-                            <input type="text" placeholder="First Name" class="input" required >
+                            <input type="text" placeholder="First Name" class="input" required id="FirstName">
                         </div>
                         <div class="field input-field">
-                            <input type="text" placeholder="Last Name" class="input" required >
+                            <input type="text" placeholder="Last Name" class="input" required id="LastName">
                         </div>
                         
                         <div class="field input-field">
-                            <input type="email" placeholder="Email" class="input" required>
+                            <input type="email" placeholder="Email" class="input" required id="email">
                         </div>
                         <div class="field input-field">
-                            <input type="password" placeholder="Create Password" class="password" pattern=".{8,20}" required name="pass">
+                            <input type="password" placeholder="Create Password" class="password" pattern=".{8,20}" required name="pass" id="Pass">
                             <i class='bx bx-hide eye-icon'></i>
                         </div>
                         <div class="field input-field">
@@ -95,7 +87,7 @@
                             <i class='bx bx-hide eye-icon'></i>
                         </div>
                         <div class="field button-field">
-                            <button>Signup</button>
+                            <button id="signup">Signup</button>
                         </div>
                     </form>
                     <div class="form-link">
@@ -119,6 +111,8 @@
                 </div>
             </div>
         </section>
+        <script src="/Exporting.js" type="module"></script>
+        <script src="/Login.js"></script>
         <script src="/login/log.js"></script>
     </body>
 </html>
