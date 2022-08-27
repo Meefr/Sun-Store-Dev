@@ -10,8 +10,9 @@
     margin-left: 500px;
     background-color: white;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 20px;
+    padding: 10px;
+    border: 10px #02364c;
+    border-radius: 50px;
   }
   #who
   {
@@ -98,7 +99,7 @@ a.google span{
 
 
 .devlinks {
-  padding: 0 20px;
+  padding: 10px;
   color: #02364c;
 }
 .devlinks a {
@@ -107,6 +108,6 @@ a.google span{
   color: #02364c;
   transition: 0.3s ease;
 }
-p .devlinks a :hover{
+.devlinks :hover{
   color: #ffc907;
 }
