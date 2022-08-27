@@ -113,6 +113,12 @@ header {
   flex-wrap: wrap;
 }
 
+#product1 .fatherHome{
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+}
+
 #product1 .product-container {
   width: 10%;
   min-width: 250px;
@@ -125,7 +131,15 @@ header {
   transition: 0.3s ease;
   position: relative;
 }
+
+
+
 #product1 .product-container:hover {
+  box-shadow: 25px 25px 25px rgba(0, 0, 0, 8%);
+  transform: scale(1.1);
+}
+
+#product1 .product-container-Home:hover {
   box-shadow: 25px 25px 25px rgba(0, 0, 0, 8%);
   transform: scale(1.1);
 }
@@ -188,21 +202,18 @@ header {
 #hero{
   background-image:url(/Images/T_shirts/img/banner/b16.jpg );
   height: 70vh;
-  width: 99%;
+  width: 1500px;
   background-size: cover;
   background-repeat: no;
   background-position: top 35% right 0;
   display: flex;
   flex-direction: column;
-  padding: 0 80px;
+  padding: 0 100px;
   align-items: flex-start;
   justify-content: center;
-  border-radius: 12px;
-  border-bottom-left-radius: 400px;
-  border-top-left-radius: 400px;
-  border-top-right-radius: 400px;
-  border-bottom-right-radius: 400px;
+  border-radius: 15px;
   margin-left: 8px;
+  margin-top: 30px;
 }
 #hero a{
   text-decoration: none;
@@ -222,4 +233,202 @@ header {
 
 #hero a:hover{
   transform: scale(1.1);
+}
+
+/* HomePage */
+
+#product1 .product-container-Home {
+  width: 10%;
+  min-width: 250px;
+  padding: 12px 13px;
+  /* border: 1px solid #cce7d0; */
+  border-radius: 18px;
+  cursor: pointer;
+  box-shadow: 25px 25px 25px rgba(0, 0, 0, 3%);
+  margin: 32px 20px;
+  transition: 0.3s ease;
+  position: relative;
+}
+
+#product1 .product-container-Home:hover {
+  box-shadow: 25px 25px 25px rgba(0, 0, 0, 8%);
+  transform: scale(1.1);
+}
+.productheader-Home h2{
+  padding-top: 2.5%;
+  text-align: center;
+  color:lightseagreen;
+  
+}
+.offers-Home{
+  padding-top: 2.5%;
+  padding-bottom: 3.5%;
+  text-align: center;
+ background-color: #C0BABC;
+ border-radius: 15px;
+  text-align: centers;
+   align-items: center;
+  vertical-align: center ;
+  height: 100px;
+
+}
+
+#sm-banner{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+   /* banner */
+#sm-banner .banner-box{
+  background-image: url(/Images/T_shirts/img/banner/b17.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  min-width: 580px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 25px;
+  padding-bottom: 30px; 
+  border-radius: 12px;
+  transition: 0.3s ease;
+}
+#sm-banner .banner-box:hover{
+  transform: scale(1.1);
+}
+
+#sm-banner .banner-box2{
+  background-image: url(/Images/T_shirts/img/banner/b10.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+  min-width: 580px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 25px;
+  padding-bottom: 30px; 
+  border-radius: 12px;
+  transition: 0.3s ease;
+}
+#sm-banner .banner-box2:hover{
+  transform: scale(1.1);
+}
+
+#sm-banner .banner-box h2{
+  font-weight: 700;
+  font-size: 40px;
+  color:#3ba3a3;
+
+}
+#sm-banner .banner-box2 h2{
+  font-weight: 700;
+  font-size: 40px;
+  color:#E2FADB;
+
+}
+
+#sm-banner .banner-box a{
+  text-decoration: none;
+  background-image: url(/Images/T_shirts/img/button.png);
+  background-color: transparent;
+  color:black;
+  border: 0;
+  margin-top: 30px;
+  padding: 14px 80px 14px 65px;
+  cursor: pointer;
+  font-size: 20px;
+  background-repeat: no-repeat;
+  font-style: italic;
+  font-weight: 700;
+  transition: 0.3s ease;
+}
+#sm-banner .banner-box2 a{
+  text-decoration: none;
+  background-image: url(/Images/T_shirts/img/button.png);
+  background-color: transparent;
+  color:black;
+  border: 0;
+  margin-top: 30px;
+  padding: 14px 80px 14px 65px;
+  cursor: pointer;
+  font-size: 20px;
+  background-repeat: no-repeat;
+  font-style: italic;
+  font-weight: 700;
+  transition: 0.3s ease;
+}
+
+
+/* footer */
+main {
+  height: 50vh;
+}
+
+footer {
+  background: #02364C;
+  padding: 50px 20px;
+}
+
+footer .container {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+footer .ftr h3 {
+  font-size: 1.8em;
+  margin-bottom: 1.2em;
+  color: #fff;
+}
+
+footer .content {
+  list-style: none;
+}
+
+footer .content a {
+  text-decoration: none;
+  color: #fff;
+  opacity: .6;
+  line-height: 45px;
+  transition: .3s ease opacity;
+}
+
+footer .content a:hover {
+  opacity: 1;
+}
+
+footer .ftr {
+  flex-basis: 18%;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+input {
+  border: none;
+  outline: none;
+  padding: 10px;
+  margin: 5px 0;
+  background: #f5f5f5;
+
+}
+
+.btn input {
+  background: blueviolet;
+  color: #fff;
+  transition: .3s ease background;
+}
+
+.btn input:hover {
+  background: #000;
 }
