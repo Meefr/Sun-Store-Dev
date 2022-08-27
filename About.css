@@ -95,3 +95,18 @@ a.google span{
   }
   
 }
+
+
+.devlinks {
+  padding: 0 20px;
+  color: #02364c;
+}
+.devlinks a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #02364c;
+  transition: 0.3s ease;
+}
+p .devlinks a :hover{
+  color: #ffc907;
+}
